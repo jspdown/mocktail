@@ -287,11 +287,7 @@ func (s Syrup) methodOnRaw(writer io.Writer) error {
 
 		w.Print(name)
 
-		if _, ok := param.Type().(*types.Signature); ok {
-			argNames = append(argNames, "mock.Anything")
-		} else {
-			argNames = append(argNames, name)
-		}
+		argNames = append(argNames, name)
 
 		w.Print(" interface{}")
 

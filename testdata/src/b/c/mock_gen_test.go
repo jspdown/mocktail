@@ -622,6 +622,10 @@ func (_c *coconutBooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutBooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutBooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -672,6 +676,10 @@ func (_c *coconutBooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutBooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutBooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutBooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -809,6 +817,10 @@ func (_c *coconutDooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutDooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutDooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -859,6 +871,10 @@ func (_c *coconutDooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutDooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutDooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutDooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -996,6 +1012,10 @@ func (_c *coconutFooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutFooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutFooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1046,6 +1066,10 @@ func (_c *coconutFooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutFooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutFooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutFooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -1183,6 +1207,10 @@ func (_c *coconutGooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutGooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutGooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1233,6 +1261,10 @@ func (_c *coconutGooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutGooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutGooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutGooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -1354,6 +1386,10 @@ func (_c *coconutHooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutHooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutHooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1404,6 +1440,10 @@ func (_c *coconutHooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutHooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutHooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutHooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -1544,6 +1584,10 @@ func (_c *coconutJooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutJooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutJooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1594,6 +1638,10 @@ func (_c *coconutJooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutJooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutJooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutJooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -1731,6 +1779,10 @@ func (_c *coconutKooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutKooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutKooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1781,6 +1833,10 @@ func (_c *coconutKooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutKooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutKooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutKooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -1919,6 +1975,10 @@ func (_c *coconutLooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutLooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutLooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -1971,6 +2031,10 @@ func (_c *coconutLooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
 }
 
+func (_c *coconutLooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
+}
+
 func (_c *coconutLooCall) OnTooRaw(src interface{}) *coconutTooCall {
 	return _c.Parent.OnTooRaw(src)
 }
@@ -2004,7 +2068,7 @@ func (_m *coconutMock) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coconut
 }
 
 func (_m *coconutMock) OnMooRaw(fn interface{}) *coconutMooCall {
-	return &coconutMooCall{Call: _m.Mock.On("Moo", mock.Anything), Parent: _m}
+	return &coconutMooCall{Call: _m.Mock.On("Moo", fn), Parent: _m}
 }
 
 type coconutMooCall struct {
@@ -2106,6 +2170,10 @@ func (_c *coconutMooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutMooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutMooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -2158,6 +2226,10 @@ func (_c *coconutMooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
 }
 
+func (_c *coconutMooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
+}
+
 func (_c *coconutMooCall) OnTooRaw(src interface{}) *coconutTooCall {
 	return _c.Parent.OnTooRaw(src)
 }
@@ -2171,6 +2243,201 @@ func (_c *coconutMooCall) OnYooRaw(st interface{}) *coconutYooCall {
 }
 
 func (_c *coconutMooCall) OnZooRaw(st interface{}) *coconutZooCall {
+	return _c.Parent.OnZooRaw(st)
+}
+
+func (_m *coconutMock) Soo(fn func(int) int) int {
+	_ret := _m.Called(fn)
+
+	if _rf, ok := _ret.Get(0).(func(func(int) int) int); ok {
+		return _rf(fn)
+	}
+
+	_ra0 := _ret.Int(0)
+
+	return _ra0
+}
+
+func (_m *coconutMock) OnSoo(fn func(int) int) *coconutSooCall {
+	return &coconutSooCall{Call: _m.Mock.On("Soo", mock.Anything), Parent: _m}
+}
+
+func (_m *coconutMock) OnSooRaw(fn interface{}) *coconutSooCall {
+	return &coconutSooCall{Call: _m.Mock.On("Soo", fn), Parent: _m}
+}
+
+type coconutSooCall struct {
+	*mock.Call
+	Parent *coconutMock
+}
+
+func (_c *coconutSooCall) Panic(msg string) *coconutSooCall {
+	_c.Call = _c.Call.Panic(msg)
+	return _c
+}
+
+func (_c *coconutSooCall) Once() *coconutSooCall {
+	_c.Call = _c.Call.Once()
+	return _c
+}
+
+func (_c *coconutSooCall) Twice() *coconutSooCall {
+	_c.Call = _c.Call.Twice()
+	return _c
+}
+
+func (_c *coconutSooCall) Times(i int) *coconutSooCall {
+	_c.Call = _c.Call.Times(i)
+	return _c
+}
+
+func (_c *coconutSooCall) WaitUntil(w <-chan time.Time) *coconutSooCall {
+	_c.Call = _c.Call.WaitUntil(w)
+	return _c
+}
+
+func (_c *coconutSooCall) After(d time.Duration) *coconutSooCall {
+	_c.Call = _c.Call.After(d)
+	return _c
+}
+
+func (_c *coconutSooCall) Run(fn func(args mock.Arguments)) *coconutSooCall {
+	_c.Call = _c.Call.Run(fn)
+	return _c
+}
+
+func (_c *coconutSooCall) Maybe() *coconutSooCall {
+	_c.Call = _c.Call.Maybe()
+	return _c
+}
+
+func (_c *coconutSooCall) TypedReturns(a int) *coconutSooCall {
+	_c.Call = _c.Return(a)
+	return _c
+}
+
+func (_c *coconutSooCall) ReturnsFn(fn func(func(int) int) int) *coconutSooCall {
+	_c.Call = _c.Return(fn)
+	return _c
+}
+
+func (_c *coconutSooCall) TypedRun(fn func(func(int) int)) *coconutSooCall {
+	_c.Call = _c.Call.Run(func(args mock.Arguments) {
+		_fn, _ := args.Get(0).(func(int) int)
+		fn(_fn)
+	})
+	return _c
+}
+
+func (_c *coconutSooCall) OnBoo(src *bytes.Buffer) *coconutBooCall {
+	return _c.Parent.OnBoo(src)
+}
+
+func (_c *coconutSooCall) OnDoo(src time.Duration) *coconutDooCall {
+	return _c.Parent.OnDoo(src)
+}
+
+func (_c *coconutSooCall) OnFoo(st Strawberry) *coconutFooCall {
+	return _c.Parent.OnFoo(st)
+}
+
+func (_c *coconutSooCall) OnGoo(st string) *coconutGooCall {
+	return _c.Parent.OnGoo(st)
+}
+
+func (_c *coconutSooCall) OnHoo(aParam string, bParam int, cParam Water) *coconutHooCall {
+	return _c.Parent.OnHoo(aParam, bParam, cParam)
+}
+
+func (_c *coconutSooCall) OnJoo(aParam string, bParam int, cParam Water) *coconutJooCall {
+	return _c.Parent.OnJoo(aParam, bParam, cParam)
+}
+
+func (_c *coconutSooCall) OnKoo(src string) *coconutKooCall {
+	return _c.Parent.OnKoo(src)
+}
+
+func (_c *coconutSooCall) OnLoo(st string, values []int) *coconutLooCall {
+	return _c.Parent.OnLoo(st, values...)
+}
+
+func (_c *coconutSooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coconutMooCall {
+	return _c.Parent.OnMoo(fn)
+}
+
+func (_c *coconutSooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
+func (_c *coconutSooCall) OnToo(src string) *coconutTooCall {
+	return _c.Parent.OnToo(src)
+}
+
+func (_c *coconutSooCall) OnVoo(src *module.Version) *coconutVooCall {
+	return _c.Parent.OnVoo(src)
+}
+
+func (_c *coconutSooCall) OnYoo(st string) *coconutYooCall {
+	return _c.Parent.OnYoo(st)
+}
+
+func (_c *coconutSooCall) OnZoo(st interface{}) *coconutZooCall {
+	return _c.Parent.OnZoo(st)
+}
+
+func (_c *coconutSooCall) OnBooRaw(src interface{}) *coconutBooCall {
+	return _c.Parent.OnBooRaw(src)
+}
+
+func (_c *coconutSooCall) OnDooRaw(src interface{}) *coconutDooCall {
+	return _c.Parent.OnDooRaw(src)
+}
+
+func (_c *coconutSooCall) OnFooRaw(st interface{}) *coconutFooCall {
+	return _c.Parent.OnFooRaw(st)
+}
+
+func (_c *coconutSooCall) OnGooRaw(st interface{}) *coconutGooCall {
+	return _c.Parent.OnGooRaw(st)
+}
+
+func (_c *coconutSooCall) OnHooRaw(aParam interface{}, bParam interface{}, cParam interface{}) *coconutHooCall {
+	return _c.Parent.OnHooRaw(aParam, bParam, cParam)
+}
+
+func (_c *coconutSooCall) OnJooRaw(aParam interface{}, bParam interface{}, cParam interface{}) *coconutJooCall {
+	return _c.Parent.OnJooRaw(aParam, bParam, cParam)
+}
+
+func (_c *coconutSooCall) OnKooRaw(src interface{}) *coconutKooCall {
+	return _c.Parent.OnKooRaw(src)
+}
+
+func (_c *coconutSooCall) OnLooRaw(st interface{}, values interface{}) *coconutLooCall {
+	return _c.Parent.OnLooRaw(st, values)
+}
+
+func (_c *coconutSooCall) OnMooRaw(fn interface{}) *coconutMooCall {
+	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutSooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
+}
+
+func (_c *coconutSooCall) OnTooRaw(src interface{}) *coconutTooCall {
+	return _c.Parent.OnTooRaw(src)
+}
+
+func (_c *coconutSooCall) OnVooRaw(src interface{}) *coconutVooCall {
+	return _c.Parent.OnVooRaw(src)
+}
+
+func (_c *coconutSooCall) OnYooRaw(st interface{}) *coconutYooCall {
+	return _c.Parent.OnYooRaw(st)
+}
+
+func (_c *coconutSooCall) OnZooRaw(st interface{}) *coconutZooCall {
 	return _c.Parent.OnZooRaw(st)
 }
 
@@ -2293,6 +2560,10 @@ func (_c *coconutTooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutTooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutTooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -2343,6 +2614,10 @@ func (_c *coconutTooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutTooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutTooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutTooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -2480,6 +2755,10 @@ func (_c *coconutVooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutVooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutVooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -2530,6 +2809,10 @@ func (_c *coconutVooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutVooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutVooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutVooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -2667,6 +2950,10 @@ func (_c *coconutYooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutYooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutYooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -2717,6 +3004,10 @@ func (_c *coconutYooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutYooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutYooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutYooCall) OnTooRaw(src interface{}) *coconutTooCall {
@@ -2854,6 +3145,10 @@ func (_c *coconutZooCall) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coco
 	return _c.Parent.OnMoo(fn)
 }
 
+func (_c *coconutZooCall) OnSoo(fn func(int) int) *coconutSooCall {
+	return _c.Parent.OnSoo(fn)
+}
+
 func (_c *coconutZooCall) OnToo(src string) *coconutTooCall {
 	return _c.Parent.OnToo(src)
 }
@@ -2904,6 +3199,10 @@ func (_c *coconutZooCall) OnLooRaw(st interface{}, values interface{}) *coconutL
 
 func (_c *coconutZooCall) OnMooRaw(fn interface{}) *coconutMooCall {
 	return _c.Parent.OnMooRaw(fn)
+}
+
+func (_c *coconutZooCall) OnSooRaw(fn interface{}) *coconutSooCall {
+	return _c.Parent.OnSooRaw(fn)
 }
 
 func (_c *coconutZooCall) OnTooRaw(src interface{}) *coconutTooCall {

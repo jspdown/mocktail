@@ -2004,7 +2004,7 @@ func (_m *coconutMock) OnMoo(fn func(Strawberry, Strawberry) Pineapple) *coconut
 }
 
 func (_m *coconutMock) OnMooRaw(fn interface{}) *coconutMooCall {
-	return &coconutMooCall{Call: _m.Mock.On("Moo", mock.Anything), Parent: _m}
+	return &coconutMooCall{Call: _m.Mock.On("Moo", fn), Parent: _m}
 }
 
 type coconutMooCall struct {
